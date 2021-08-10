@@ -25,100 +25,100 @@ export default function Calculator() {
           <div className="bg-skin-toggleBackground transition duration-500 ease-in-out h-auto mt-5 rounded-md shadow w-auto">
             <div className="p-4 grid grid-cols-4 gap-3 ">
               <div className="w-12 lg:w-20 h-10 lg:h-12 bg-skin-keyColor transition duration-500 ease-in-out lg:pt-2 rounded text-center shadow border-b-4 border-skin-KeyShadow cursor-pointer">
-                <span className="font-bold font-mono text-2xl transition duration-500 ease-in-out text-skin-keytextColor text-btnFont">
+                <button className="font-bold font-mono text-2xl transition duration-500 ease-in-out text-skin-keytextColor text-btnFont">
                   7
-                </span>
+                </button>
               </div>
 
               <div className="w-12 lg:w-20 h-10 lg:h-12 bg-skin-keyColor transition duration-500 ease-in-out text-center lg:pt-2 rounded shadow border-b-4 border-skin-KeyShadow cursor-pointer">
-                <span className="font-bold font-mono text-2xl text-skin-keytextColor text-btnFont">
+                <button className="font-bold font-mono text-2xl text-skin-keytextColor text-btnFont">
                   8
-                </span>
+                </button>
               </div>
               <div className="w-12 lg:w-20 h-10 lg:h-12 bg-skin-keyColor transition duration-500 ease-in-out text-center lg:pt-2 rounded shadow border-b-4 border-skin-KeyShadow cursor-pointer">
-                <span className="font-bold font-mono text-2xl text-skin-keytextColor text-btnFont">
+                <button className="font-bold font-mono text-2xl text-skin-keytextColor text-btnFont">
                   9
-                </span>
+                </button>
               </div>
               <div className="w-12 lg:w-20 h-10 lg:h-12 bg-skin-keyBack text-center pt-1 lg:pt-2 rounded shadow border-b-4 border-skin-keyBackShadow cursor-pointer">
-                <span className="font-bold font-mono text-lg text-white">
+                <button className="font-bold font-mono text-lg text-white">
                   DEL
-                </span>
+                </button>
               </div>
               <div className="w-12 lg:w-20 h-10 lg:h-12 bg-skin-keyColor transition duration-500 ease-in-out lg:pt-2 rounded text-center shadow border-b-4 border-skin-KeyShadow cursor-pointer">
-                <span className="font-bold font-mono text-2xl text-skin-keytextColor text-btnFont">
+                <button className="font-bold font-mono text-2xl text-skin-keytextColor text-btnFont">
                   4
-                </span>
+                </button>
               </div>
 
               <div className="w-12 lg:w-20 h-10 lg:h-12 bg-skin-keyColor transition duration-500 ease-in-out text-center lg:pt-2 rounded shadow border-b-4 border-skin-KeyShadow cursor-pointer">
-                <span className="font-bold font-mono text-2xl text-skin-keytextColor text-btnFont">
+                <button className="font-bold font-mono text-2xl text-skin-keytextColor text-btnFont">
                   5
-                </span>
+                </button>
               </div>
               <div className="w-12 lg:w-20 h-10 lg:h-12 bg-skin-keyColor transition duration-500 ease-in-out text-center lg:pt-2 rounded shadow border-b-4 border-skin-KeyShadow cursor-pointer">
-                <span className="font-bold font-mono text-2xl text-skin-keytextColor text-btnFont">
+                <button className="font-bold font-mono text-2xl text-skin-keytextColor text-btnFont">
                   6
-                </span>
+                </button>
               </div>
               <div className="w-12 lg:w-20 h-10 lg:h-12 bg-skin-keyColor transition duration-500 ease-in-out text-center lg:pt-2 rounded shadow border-b-4 border-skin-KeyShadow cursor-pointer">
-                <span className="font-bold font-mono text-2xl text-skin-keytextColor ">
+                <button className="font-bold font-mono text-2xl text-skin-keytextColor ">
                   +
-                </span>
+                </button>
               </div>
               <div className="w-12 lg:w-20 h-10 lg:h-12 bg-skin-keyColor transition duration-500 ease-in-out lg:pt-2 rounded text-center shadow border-b-4 border-skin-KeyShadow cursor-pointer">
-                <span className="font-bold font-mono text-2xl text-skin-keytextColor text-btnFont">
+                <button className="font-bold font-mono text-2xl text-skin-keytextColor text-btnFont">
                   1
-                </span>
+                </button>
               </div>
 
               <div className="w-12 lg:w-20 h-10 lg:h-12 bg-skin-keyColor transition duration-500 ease-in-out text-center lg:pt-2 rounded shadow border-b-4 border-skin-KeyShadow cursor-pointer">
-                <span className="font-bold font-mono text-2xl text-skin-keytextColor text-btnFont">
+                <button className="font-bold font-mono text-2xl text-skin-keytextColor text-btnFont">
                   2
-                </span>
+                </button>
               </div>
               <div className="w-12 lg:w-20 h-10 lg:h-12 bg-skin-keyColor transition duration-500 ease-in-out text-center lg:pt-2 rounded shadow border-b-4 border-skin-KeyShadow cursor-pointer">
-                <span className="font-bold font-mono text-2xl text-skin-keytextColor text-btnFont">
+                <button className="font-bold font-mono text-2xl text-skin-keytextColor text-btnFont">
                   3
-                </span>
+                </button>
               </div>
               <div className="w-12 lg:w-20 h-10 lg:h-12 bg-skin-keyColor transition duration-500 ease-in-out text-center lg:pt-2 rounded shadow border-b-4 border-skin-KeyShadow cursor-pointer">
-                <span className="font-bold font-mono text-2xl text-skin-keytextColor ">
+                <button className="font-bold font-mono text-2xl text-skin-keytextColor ">
                   -
-                </span>
+                </button>
               </div>
               <div className="w-12 lg:w-20 h-10 lg:h-12 bg-skin-keyColor transition duration-500 ease-in-out lg:pt-2 rounded text-center shadow border-b-4 border-skin-KeyShadow cursor-pointer">
-                <span className="font-bold font-mono text-2xl text-skin-keytextColor">
+                <button className="font-bold font-mono text-2xl text-skin-keytextColor">
                   .
-                </span>
+                </button>
               </div>
 
               <div className="w-12 lg:w-20 h-10 lg:h-12 bg-skin-keyColor transition duration-500 ease-in-out text-center lg:pt-2 rounded shadow border-b-4 border-skin-KeyShadow cursor-pointer">
-                <span className="font-bold font-mono text-2xl text-skin-keytextColor text-btnFont">
+                <button className="font-bold font-mono text-2xl text-skin-keytextColor text-btnFont">
                   0
-                </span>
+                </button>
               </div>
               <div className="w-12 lg:w-20 h-10 lg:h-12 bg-skin-keyColor transition duration-500 ease-in-out text-center lg:pt-2 rounded shadow border-b-4 border-skin-KeyShadow cursor-pointer">
-                <span className="font-bold font-mono text-2xl text-skin-keytextColor">
+                <button className="font-bold font-mono text-2xl text-skin-keytextColor">
                   /
-                </span>
+                </button>
               </div>
               <div className="w-12 lg:w-20 h-10 lg:h-12 bg-skin-keyColor transition duration-500 ease-in-out text-center lg:pt-2 rounded shadow border-b-4 border-skin-KeyShadow cursor-pointer">
-                <span className="font-bold font-mono text-2xl text-skin-keytextColor ">
+                <button className="font-bold font-mono text-2xl text-skin-keytextColor ">
                   x
-                </span>
+                </button>
               </div>
 
               <div className="col-span-2   bg-skin-keyBack  text-center lg:pt-2 rounded shadow border-b-4 border-skin-keyBackShadow cursor-pointer">
-                <span className="font-bold font-mono text-2xl text-white">
+                <button className="font-bold font-mono text-2xl text-white">
                   RESET
-                </span>
+                </button>
               </div>
 
               <div className="col-span-2  bg-skin-keyRedColor transition duration-500 ease-in-out text-center lg:pt-2 rounded shadow border-b-4 border-skin-keyRedColorShadow cursor-pointer">
-                <span className="font-bold font-mono text-2xl transition duration-500 ease-in-out text-skin-equalText">
+                <button className="font-bold font-mono text-2xl transition duration-500 ease-in-out text-skin-equalText">
                   =
-                </span>
+                </button>
               </div>
             </div>
           </div>

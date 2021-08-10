@@ -1,16 +1,48 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
-  box-sizing: border-box;
+@layer base {
+  :root {
+    --color-fill: hsl(222, 26%, 31%);
+    --color-toggleBackground: hsl(223, 31%, 20%);
+    --color-screenBackground: hsl(224, 36%, 15%);
+    --color-keyColor: hsl(30, 25%, 89%);
+    --color-KeyShadow: hsl(28, 16%, 65%);
+    --color-keyBack: hsl(225, 21%, 49%);
+    --color-keyBackShadow: hsl(224, 28%, 35%);
+    --color-keyRedColor: hsl(6, 63%, 50%);
+    --color-keyRedColorShadow: hsl(6, 70%, 34%);
+    --color-keytextColor: hsl(221, 14%, 31%);
+    --color-globalColor: #fff;
+    --color-equalVal: #fff;
+  }
+  .theme-2 {
+    --color-fill: hsl(0, 0%, 90%);
+    --color-toggleBackground: hsl(0, 5%, 81%);
+    --color-screenBackground: hsl(0, 0%, 93%);
+    --color-keyColor: hsl(45, 7%, 89%);
+    --color-KeyShadow: hsl(35, 11%, 61%);
+    --color-keyBack: hsl(185, 42%, 37%);
+    --color-keyBackShadow: hsl(185, 58%, 25%);
+    --color-keyRedColor: hsl(25, 98%, 40%);
+    --color-keyRedColorShadow: hsl(25, 99%, 27%);
+    --color-keytextColor: hsl(60, 10%, 19%);
+    --color-globalColor: #000;
+    --color-equalVal: #fff;
+  }
+  .theme-3 {
+    --color-fill: hsl(268, 75%, 9%);
+    --color-toggleBackground: hsl(268, 71%, 12%);
+    --color-screenBackground: hsl(268, 71%, 12%);
+    --color-keyColor: hsl(268, 47%, 21%);
+    --color-KeyShadow: hsl(290, 70%, 36%);
+    --color-keyBack: hsl(281, 89%, 26%);
+    --color-keyBackShadow: hsl(285, 91%, 52%);
+    --color-keyRedColor: hsl(176, 100%, 44%);
+    --color-keyRedColorShadow: hsl(177, 92%, 70%);
+    --color-keytextColor: hsl(52, 100%, 62%);
+    --color-globalColor: hsl(52, 100%, 62%);
+    --color-equalVal: #000;
+  }
 }

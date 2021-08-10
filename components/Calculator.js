@@ -3,7 +3,7 @@ import Switch from "./Switch";
 
 export default function Calculator() {
   const themes = ["","theme-2","theme-3"]
-  const [act, setAct] = useState([false, false, true]);
+  const [act, setAct] = useState([true, false, false]);
   return (
     <div className={`${act[0] ? themes[0]: act[1] ? themes[1] : act[2] ? themes[2] : ""}`}>
       <div className="bg-skin-fill transition duration-500 ease-in-out w-full h-screen flex flex-row justify-center items-center">

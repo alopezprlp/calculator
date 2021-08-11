@@ -1,6 +1,6 @@
 import { Button } from "./Button";
 
-const Keypad = () => {
+const Keypad = ({ updateDisplay }) => {
   const buttons = [
     {
       text: "7",
@@ -84,7 +84,8 @@ const Keypad = () => {
     },
     {
       text: "reset",
-      containerClass: "col-span-2 bg-skin-keyBack border-skin-keyBackShadow p-3",
+      containerClass:
+        "col-span-2 bg-skin-keyBack border-skin-keyBackShadow p-3",
       buttonClass: "text-white uppercase text-lg pt-2",
     },
     {
@@ -96,7 +97,7 @@ const Keypad = () => {
   ];
 
   const renderButtons = buttons.map((button, index) => (
-    <Button {...button} key={index} />
+    <Button {...button} key={index} updateDisplay={updateDisplay} />
   ));
 
   return (

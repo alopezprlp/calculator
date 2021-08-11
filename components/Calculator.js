@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import Switch from "./Switch";
 import { Keypad } from "./Keypad";
 import { Display } from "./Display";
@@ -7,9 +7,6 @@ export default function Calculator() {
   const themes = ["", "theme-2", "theme-3"];
   const [act, setAct] = useState([true, false, false]);
 
-  useEffect(() => {
-    document.body.classList.add("bg-skin-fill");
-  }, [act]);
   return (
     <div className={`${themes[act.findIndex((isTrue) => isTrue)]}`}>
       <div className="bg-skin-fill transition duration-500 ease-in-out w-full h-screen flex flex-row md:justify-center md:items-center pt-2 sm:pt-0">

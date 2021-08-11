@@ -100,7 +100,7 @@ const Keypad = () => {
   ));
 
   return (
-    <div className="bg-skin-toggleBackground transition duration-500 ease-in-out h-auto mt-5 rounded-md shadow w-auto">
+    <div className="bg-skin-toggleBackground transition duration-500 ease-in-out h-auto mt-4 rounded-md shadow w-auto">
       <div className="p-4 grid grid-cols-4 gap-4">{renderButtons}</div>
     </div>
   );

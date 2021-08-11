@@ -3,6 +3,10 @@
 @tailwind utilities;
 
 @layer base {
+  @font-face {
+    font-family: "Spartan";
+    src: local("Spartan"), url(/fonts/Spartan/Spartan-Bold.ttf) format("truetype");
+  }
   :root {
     --color-fill: hsl(222, 26%, 31%);
     --color-toggleBackground: hsl(223, 31%, 20%);

@@ -4,6 +4,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      fontFamily: {
+        spartan: ["Spartan"],
+      },
       backgroundColor: {
         skin: {
           fill: "var(--color-fill)",
@@ -18,7 +21,7 @@ module.exports = {
         skin: {
           keytextColor: "var(--color-keytextColor)",
           globalText: "var(--color-globalColor)",
-          equalText:"var(--color-equalVal)",
+          equalText: "var(--color-equalVal)",
         },
       },
       borderColor: {

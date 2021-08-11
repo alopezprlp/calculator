@@ -3,13 +3,13 @@ export default function Switch({ active, changeTheme }) {
   return (
     <div>
       <div className="flex flex-row items-center space-x-3">
-        <span className="font-mono text-skin-globalText transition duration-500 ease-in-out font-semibold text-sm pt-6">
+        <span className="font-spartan text-skin-globalText transition duration-500 ease-in-out text-sm pt-6">
           THEME
         </span>
         <div className="flex flex-col items-center">
           <div className="flex flex-row space-x-3">
             <span
-              className="text-skin-globalText transition duration-500 ease-in-out font-mono cursor-pointer"
+              className="text-skin-globalText transition duration-500 ease-in-out font-spartan cursor-pointer"
               onClick={() => {
                 changeTheme([true, false, false]);
               }}
@@ -17,7 +17,7 @@ export default function Switch({ active, changeTheme }) {
               1
             </span>
             <span
-              className="text-skin-globalText transition duration-500 ease-in-out font-mono cursor-pointer"
+              className="text-skin-globalText transition duration-500 ease-in-out font-spartan cursor-pointer"
               onClick={() => {
                 changeTheme([false, true, false]);
               }}
@@ -25,7 +25,7 @@ export default function Switch({ active, changeTheme }) {
               2
             </span>
             <span
-              className="text-skin-globalText transition duration-500 ease-in-out font-mono cursor-pointer"
+              className="text-skin-globalText transition duration-500 ease-in-out font-spartan cursor-pointer"
               onClick={() => {
                 changeTheme([false, false, true]);
               }}

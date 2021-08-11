@@ -3,7 +3,7 @@ const Display = () => (
     <input
       readOnly
       defaultValue="0"
-      className=" rounded-md bg-skin-screenBackground transition duration-500 ease-in-out transparent text-skin-globalText text-5xl font-mono w-11/12 text-right pr-3 outline-none"
+      className="font-spartan rounded-md bg-skin-screenBackground transition duration-500 ease-in-out transparent text-skin-globalText text-5xl w-11/12 text-right pr-3 outline-none"
     />
   </div>
 );

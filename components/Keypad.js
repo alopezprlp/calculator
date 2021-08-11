@@ -84,13 +84,13 @@ const Keypad = () => {
     },
     {
       text: "reset",
-      containerClass: "col-span-2  bg-skin-keyBack border-skin-keyBackShadow",
+      containerClass: "col-span-2 bg-skin-keyBack border-skin-keyBackShadow",
       buttonClass: "text-2xl text-white uppercase",
     },
     {
       text: "=",
       containerClass:
-        "col-span-2  bg-skin-keyRedColor border-skin-keyRedColorShadow",
+        "col-span-2 bg-skin-keyRedColor border-skin-keyRedColorShadow",
       buttonClass: "text-2xl text-skin-equalText",
     },
   ];

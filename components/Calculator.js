@@ -11,7 +11,7 @@ export default function Calculator() {
       <div className="bg-skin-fill transition duration-500 ease-in-out w-full h-screen flex flex-row justify-center items-center">
         <div className="h-4/5 w-9/12 sm:w-8/12 md:w-7/12 xl:w-4/12 mx-auto p-2">
           <div className="flex flex-row justify-between">
-            <span className="font-mono text-skin-globalText font-bold text-2xl">
+            <span className="text-skin-globalText font-spartan text-2xl">
               calc
             </span>
             <Switch active={act} changeTheme={setAct} />

@@ -1,5 +1,5 @@
 const Display = () => (
-  <div className="h-20 bg-skin-screenBackground transition duration-500 ease-in-out rounded-md flex justify-end align-middle mt-6 shadow">
+  <div className="h-20 bg-skin-screenBackground transition duration-500 ease-in-out rounded-md flex justify-end align-middle mt-5 shadow">
     <input
       readOnly
       defaultValue="0"

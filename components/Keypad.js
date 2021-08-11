@@ -19,8 +19,8 @@ const Keypad = () => {
     },
     {
       text: "del",
-      containerClass: "bg-skin-keyBack border-skin-keyBackShadow pt-5",
-      buttonClass: "text-sm sm:text-lg text-white uppercase",
+      containerClass: "bg-skin-keyBack border-skin-keyBackShadow",
+      buttonClass: "text-lg text-white uppercase pt-2",
     },
     {
       text: "4",
@@ -84,14 +84,14 @@ const Keypad = () => {
     },
     {
       text: "reset",
-      containerClass: "col-span-2 bg-skin-keyBack border-skin-keyBackShadow",
-      buttonClass: "text-white uppercase",
+      containerClass: "col-span-2 bg-skin-keyBack border-skin-keyBackShadow p-3",
+      buttonClass: "text-white uppercase text-lg pt-2",
     },
     {
       text: "=",
       containerClass:
-        "col-span-2 bg-skin-keyRedColor border-skin-keyRedColorShadow",
-      buttonClass: "text-skin-equalText",
+        "col-span-2 bg-skin-keyRedColor border-skin-keyRedColorShadow p-3",
+      buttonClass: "text-skin-equalText text-lg pt-2",
     },
   ];
 

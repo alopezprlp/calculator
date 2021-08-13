@@ -15,6 +15,8 @@ export default function Calculator() {
       } else if (text === "del") {
         if (value.length === 1) {
           return "0";
+        } else if (value.indexOf("ERROR ") != -1 || value === "Infinity") {
+          return "0";
         }
         return value !== "0" ? value.slice(0, -1) : value;
       } else if (text === "reset") {
@@ -24,7 +26,7 @@ export default function Calculator() {
           value = value.replaceAll("x", "*").replaceAll(",", ".");
           return "" + eval(value);
         } catch (error) {
-          // do nothing
+          return "ERROR ".concat(value);
         }
       } else {
         if (value === "0") {
